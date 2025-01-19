@@ -1,0 +1,41 @@
+*{
+    transition: 0.7s;
+}
+.banner{
+    background-color: #243642;
+}
+/* .banner h1{
+    color: #DDA853;
+}
+.banner p{
+    color: #EDF4C2;
+} */
+.website{
+    background:  url(https://plus.unsplash.com/premium_photo-1701534008693-0eee0632d47a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D) no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+}
+.insta{
+    background:  url(https://media.istockphoto.com/id/1445522142/vector/purple-orange-defocused-abstract-background.jpg?s=612x612&w=0&k=20&c=QkPoAyJCsMkOFhhGhodlu-HqfpY-6MCcl07wgagxSqU=) no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+}
+.youtube{
+    background:  url(https://lh3.googleusercontent.com/proxy/jV4puDsy6bQLcn5YkOAvaG1EFmpDQPSRWtIn3sdfO-rw2SfHnlzUl7WhYcjfiVHBp4KuEiujtSmFBilPy29fnWXAWtCFY_zri9D4PT5lBt021aM7M7yi14eRVFivewOijb9k2L5WnHTAVxtKSA9bWQ) no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+}
+.whatsapp{
+    background:  url(https://img.freepik.com/free-vector/background-gradient-green-tones_23-2148360340.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+}
+.main{
+    background-color: #FDF7F4;
+}
+
+.website:hover, .whatsapp:hover, .youtube:hover, .insta:hover{
+    opacity: 0.9;
+    transform: scale(1.06);
+    cursor: pointer;
+}
