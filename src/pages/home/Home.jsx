@@ -3,20 +3,19 @@ import './style.css'
 
 function Home() {
   return (
-    <section>
+    <section style={{display:'flex', flexDirection:'column', minHeight:'100vh'}} className='bg-dark'>
         <div className="banner p-3 p-md-5 text-center text-white">
             <img src="https://www.rocketshots.in/static/media/logo.4cf713867c4bf18024cb.png" alt="" width='150px' />
                 <h1 className="display-5 fw-bold">Rocket Shots</h1>
                 <p className="fs-6">Your Rocket Journey to the Creative Digital Space.</p>
         </div>
-     <div className='main bg-dark'>
+     <div className='main bg-dark d-flex align-items-center justify-content-center' style={{flex:1}}>
      <div className="container p-3 p-md-5">
   {/* Section Heading */}
   <div className=" mb-4 text-white">
     <h1 className="display-6 fw-bold"><span className="text-success">Connect</span> with Us</h1>
     {/* <p className="text-secondary fs-6">Explore our platforms and stay updated with the latest updates and information.</p> */}
     <hr />
-  </div>
 
   {/* <div className="row">
     <div className="col-md-6 mt-3">
@@ -85,7 +84,7 @@ function Home() {
   </div> */}
 </div>
 
-<div className="container p-3 p-md-5 py-0">
+<div className="container p-3 p-md-5 py-0" >
 <ul className='row mb-0 p-0'>
    <div className="col-md-3">
    <li className='website'><a href="https://www.rocketshots.in/"  target='_blank'><i className='bi bi-globe'></i> Official Website</a></li>
@@ -101,6 +100,8 @@ function Home() {
    </div>
 </ul>
 </div>
+</div>
+
      </div>
      <div className="p-3 p-md-5 bg-dark text-center">
         <h1 className="fs-1 fw-bold text-white">SKY IS NOT THE LIMIT</h1>
