@@ -7,7 +7,7 @@ function Home() {
         <div className="banner p-3 p-md-5 text-center text-white">
             <img src="https://www.rocketshots.in/static/media/logo.4cf713867c4bf18024cb.png" alt="" width='200px' />
                 <h1 className="display-5 fw-bold">Rocket Shots</h1>
-                <p className="fs-6">Your Rocket Journy to the Creative Digital Space.</p>
+                <p className="fs-6">Your Rocket Journey to the Creative Digital Space.</p>
         </div>
      <div className='main bg-dark'>
      <div className="container p-3 p-md-5">
@@ -88,6 +88,9 @@ function Home() {
     </div>
   </div>
 </div>
+     </div>
+     <div className="p-3 p-md-5">
+        <h1 className="fs-3 fw-bold">SKY IS NOT THE LIMIT</h1>
      </div>
 <footer className="p-3 p-md-5 text-center text-white bg-black">
     <p className="fs-6 mb-0">&copy; Copyrights 2025. All rights Reserved</p>
