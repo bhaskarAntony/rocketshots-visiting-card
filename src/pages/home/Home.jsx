@@ -89,8 +89,8 @@ function Home() {
   </div>
 </div>
      </div>
-     <div className="p-3 p-md-5">
-        <h1 className="fs-3 fw-bold">SKY IS NOT THE LIMIT</h1>
+     <div className="p-3 p-md-5 bg-dark text-center">
+        <h1 className="fs-1 fw-bold text-white">SKY IS NOT THE LIMIT</h1>
      </div>
 <footer className="p-3 p-md-5 text-center text-white bg-black">
     <p className="fs-6 mb-0">&copy; Copyrights 2025. All rights Reserved</p>
