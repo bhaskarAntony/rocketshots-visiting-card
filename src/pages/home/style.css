@@ -3,6 +3,8 @@
 }
 .banner{
     background-color: #243642;
+    background:linear-gradient(#28303c8f, #0000008c), url('./space.jpg') no-repeat center;
+    background-size: cover;
 }
 /* .banner h1{
     color: #DDA853;
@@ -76,4 +78,10 @@ ul li a{
     opacity: 0.9;
     transform: scale(1.06);
     cursor: pointer;
+}
+.insta, .youtube, .whatsapp, .website{
+    background: linear-gradient(45deg, #345349, #5fd8a0);
+    backdrop-filter: blur(90px);
+    border: 2px solid #5fd8a0;
+    margin-bottom: 20px !important;
 }

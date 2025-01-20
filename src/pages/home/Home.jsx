@@ -9,7 +9,7 @@ function Home() {
                 <h1 className="display-5 fw-bold">Rocket Shots</h1>
                 <p className="fs-6">Your Rocket Journey to the Creative Digital Space.</p>
         </div>
-     <div className='main bg-dark d-flex align-items-center justify-content-center' style={{flex:1}}>
+     <div className='main bg-dark' style={{flex:1}}>
      <div className="container p-3 p-md-5">
   {/* Section Heading */}
   <div className=" mb-4 text-white">
@@ -99,13 +99,14 @@ function Home() {
    <li className='whatsapp'><a href="https://wa.me/+919740007832" target='_blank'><i className='bi bi-whatsapp'></i> Whatsapp Support</a></li>
    </div>
 </ul>
+<div className="p-3 p-md-5 bg-dark text-center">
+        <h1 className="fs-1 fw-bold text-white">SKY IS NOT THE LIMIT</h1>
+     </div>
 </div>
 </div>
 
      </div>
-     <div className="p-3 p-md-5 bg-dark text-center">
-        <h1 className="fs-1 fw-bold text-white">SKY IS NOT THE LIMIT</h1>
-     </div>
+    
 <footer className="p-3 p-md-5 text-center text-white bg-black">
     <p className="fs-6 mb-0">&copy; Copyrights 2025. All rights Reserved</p>
 </footer>
@@ -113,4 +114,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
